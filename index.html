@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Reviews</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>My Restaurant Reviews</h1>
+    <div class="content">
+        <form id="add-restaurant-form">
+            <input type="text" name="business" placeholder="Business Name" required>
+            <input type="text" name="location" placeholder="Business Location" required>
+            <input type="text" name="type" placeholder="Type of food" required>
+            <input type="text" name="ordered" placeholder="What food did you order" required>
+            <input type="text" name="review" placeholder="Write a short review" required>
+            <input type="text" name="score" placeholder="Score out of 5" required>
+            <button>Add Restaurant</button>
+        </form>
+        <ul id="restaurant-list"></ul>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

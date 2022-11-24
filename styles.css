@@ -1,0 +1,121 @@
+body {
+    background: #237088;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+  }
+  
+  h1 {
+    font-size: 64px;
+    letter-spacing: 2px;
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .content {
+    background: #2c2248;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px 30px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 20px;
+    background: #23883C;
+    font-size: 1.05rem;
+    position: relative;
+    border-bottom: 3px solid #e6e6e6;
+    font-weight: 500;
+  }
+  
+  li:nth-child(even) {
+    padding: 20px;
+    background: #88236F;
+  }
+  
+  li span {
+    display: block;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    margin-right: 1em;
+    max-width: 80%;
+  }
+  
+  li span:nth-child(1),
+  li span:nth-child(6) {
+    font-size: 1.35rem;
+    font-weight: 700;
+  }
+  
+  li div {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background: rgba(255, 255, 255, 0.6);
+    width: 40px;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+  }
+
+
+
+  li div:hover,
+  li div:active {
+    background-color: #233D88;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #fff;
+  }
+  
+  form input {
+    max-width: 90%;
+    min-width: 75%;
+    margin: 0 auto 0.5em auto;
+    border: 0;
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+  }
+  
+  form input:focus {
+    outline: none;
+    border-bottom: 5px solid #238823;
+    transition: all ease 0.2s;
+  }
+  
+  form:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  
+  button {
+    border: 0;
+    background: #88236F;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #eee;
+    display: flex;
+    margin: 0.5em auto;
+  }
+
+  button:hover,
+  button:focus {
+    background: #238823;
+    color: #fff;
+    cursor: pointer;
+  }
